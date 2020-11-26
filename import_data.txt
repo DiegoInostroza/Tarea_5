@@ -1,0 +1,1 @@
+\<[0-9]{9,10}\.[0-9]{7,8}\.[0-9]{13}@las1[a-b]{1}\-us\-bn\-ac\-nexus\-notification\-prod\-[a-z]{3,4}\-0[0-1]{1}\.las1[a-b]{1}\.cloud\.blizzard\.net\> 15-Sep-2020 noreply@blizzard.com
