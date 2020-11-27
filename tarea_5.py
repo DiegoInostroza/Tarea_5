@@ -2,7 +2,7 @@ import imaplib
 import email
 import re
 
-server, host_name, host_password, mail_box = "imap.gmail.com", "d.emanu.moli@gmail.com", "homero1000", "INBOX"
+server, host_name, host_password, mail_box = "imap.gmail.com", "email@gmail.com", "password", "INBOX"
 
 
 mail = imaplib.IMAP4_SSL(server)
