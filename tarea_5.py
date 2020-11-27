@@ -9,6 +9,13 @@ mail = imaplib.IMAP4_SSL(server)
 mail.login(host_name, host_password)
 mail.select(mail_box)
 
+if aux:
+    print('\nConexión exitosa\n')
+
+else:
+    print('\nNo se logro conectar\n')
+
+
 file = open("import_data.txt","r")
 datos = file.readline().split()
 reg = datos[0]
